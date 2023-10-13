@@ -14,152 +14,136 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="container header-wrap">
+    <header class="page-header">
+        <div class="container header-layout">
             <nav class="navigation">
-                <a class="link logo logo-header" href="./index.html">Web<span class="accent">Studio</span></a>
-                <ul class="list nav-list">
-                    <li class="nav-li">
-                        <a class="nav-link link" href="./index.html">Studio</a>
+                <a href="./index.html" class="logo link">Web<span class="part-logo">Studio</span></a>
+                <ul class="list page-navigation">
+                    <li>
+                        <a href="./index.html" class="link page-link">Studio</a>
                     </li>
-                    <li class="nav-li">
-                        <a class="nav-link link" href="./portfolio.html">Portfolio</a>
+                    <li>
+                        <a href="./portfolio.html" class="link page-link page-link-portfolio">Portfolio</a>
                     </li>
-                    <li class="nav-li">
-                        <a class="nav-link link" href="">Contacts</a>
-                    </li>
+                    <li><a href="" class="link page-link">Contacts</a></li>
                 </ul>
             </nav>
-            <address class="address">
-                <ul class="list">
+            <address>
+                <ul class="list address-list">
                     <li>
-                        <a class="address-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a href="mailto:info@devstudio.com" class="link address-link">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a class="address-link link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        <a href="tel:+110001111111" class="link address-link">+11 (000) 111-11-11</a>
                     </li>
                 </ul>
             </address>
         </div>
     </header>
     <main>
-        <section class="section portfolio-section">
+        <section class="section portfolio-main-section">
             <div class="container">
                 <h1 class="visually-hidden">Portfolio</h1>
-                <ul class="list buttons">
+                <ul class="list filter-list">
+                    <li><button type="button" class="filter-button">All</button></li>
                     <li>
-                        <button class="portfolio-button button" type="button">All</button>
+                        <button type="button" class="filter-button">Web Site</button>
                     </li>
+                    <li><button type="button" class="filter-button">App</button></li>
+                    <li><button type="button" class="filter-button">Design</button></li>
                     <li>
-                        <button class="portfolio-button button" type="button">
-                            Web Site
-                        </button>
-                    </li>
-                    <li>
-                        <button class="portfolio-button button" type="button">App</button>
-                    </li>
-                    <li>
-                        <button class="portfolio-button button" type="button">
-                            Design
-                        </button>
-                    </li>
-                    <li>
-                        <button class="portfolio-button button" type="button">
-                            Marketing
-                        </button>
+                        <button type="button" class="filter-button">Marketing</button>
                     </li>
                 </ul>
-                <ul class="list portfolio-app">
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw11.jpg" alt="BankApp application" width="360" height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">
+                <ul class="list portfolio-list">
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw11.jpg" alt="bank app photo" width="360" height="300" />
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">
                                     Banking App Interface Concept
                                 </h2>
-                                <p class="paragraph">App</p>
+                                <p class="portfolio-paragraph">App</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw12.jpg" alt="scanning an QR code" width="360" height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">Cashless Payment</h2>
-                                <p class="paragraph">Marketing</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw13.jpg"
-                                alt="laptop and mobile screens showing meditation application" width="360"
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw12.jpg" alt="cashless mobile phone photo" width="360"
                                 height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">Meditation App</h2>
-                                <p class="paragraph">App</p>
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Cashless Payment</h2>
+                                <p class="portfolio-paragraph">Marketing</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw21.jpg" alt="steering wheel being held" width="360"
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw13.jpg" alt="laptop and mobile phone photo" width="360"
                                 height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">Taxi Service</h2>
-                                <p class="paragraph">Marketing</p>
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Meditation App</h2>
+                                <p class="portfolio-paragraph">App</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw22.jpg" alt="phone screen with a moon wallpaper" width="360"
-                                height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">Screen Illustrations</h2>
-                                <p class="paragraph">Design</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw23.jpg" alt="smiling woman with headphones using a mobile phone"
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw21.jpg" alt="inside of the car with steering wheel photo"
                                 width="360" height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">Online Courses</h2>
-                                <p class="paragraph">Marketing</p>
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Taxi Service</h2>
+                                <p class="portfolio-paragraph">Marketing</p>
                             </div>
                         </a>
                     </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw31.jpg" alt="templates concerning keeping house under control"
-                                width="360" height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">
-                                    Instagram Stories Concept
-                                </h2>
-                                <p class="paragraph">Design</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw32.jpg" alt="woman carrying a bag of fruits and vegetables"
-                                width="360" height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">Organic Food</h2>
-                                <p class="paragraph">Web Site</p>
-                            </div>
-                        </a>
-                    </li>
-                    <li class="portfolio-app-li">
-                        <a href="" class="link">
-                            <img src="./images/portfolio/hw33.jpg" alt="person decorating a coffee" width="360"
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw22.jpg" alt="mobile phone screens photo" width="360"
                                 height="300" />
-                            <div class="portfolio-app-name">
-                                <h2 class="portfolio-second-heading">Fresh Coffee</h2>
-                                <p class="paragraph">Web Site</p>
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Screen Illustrations</h2>
+                                <p class="portfolio-paragraph">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw23.jpg" alt="smiley fashionable young woman photo" width="360"
+                                height="300" />
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Online Courses</h2>
+                                <p class="portfolio-paragraph">Marketing</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw31.jpg" alt="online courses website photo" width="360"
+                                height="300" />
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Instagram Stories Concept</h2>
+                                <p class="portfolio-paragraph">Design</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw32.jpg" alt="person carrying shopping bag with vegetables photo"
+                                width="360" height="300" />
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Organic Food</h2>
+                                <p class="portfolio-paragraph">Web Site</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-item">
+                        <a href="" class="link portfolio-link">
+                            <img src="./images/portfolio/hw33.jpg" alt="barrista pouring milk into the coffee photo"
+                                width="360" height="300" />
+                            <div class="portfolio-description">
+                                <h2 class="portfolio-header">Fresh Coffee</h2>
+                                <p class="portfolio-paragraph">Web Site</p>
                             </div>
                         </a>
                     </li>
@@ -182,28 +166,28 @@
                     <li class="footer-social-media-list">
                         <a class="link footer-socialmedia-icon" href="">
                             <svg class="footer-svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-instagram"></use>
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social-media-list">
                         <a class="link footer-socialmedia-icon" href="">
                             <svg class="footer-svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-twitter"></use>
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social-media-list">
                         <a class="link footer-socialmedia-icon" href="">
                             <svg class="footer-svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-facebook"></use>
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
                             </svg>
                         </a>
                     </li>
                     <li class="footer-social-media-list">
                         <a class="link footer-socialmedia-icon" href="">
                             <svg class="footer-svg" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
                             </svg>
                         </a>
                     </li>
@@ -211,6 +195,6 @@
             </div>
         </div>
     </footer>
-</body>
-
-</html>
+    </body>
+    
+    </html>
