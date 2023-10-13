@@ -337,3 +337,15 @@ img {
     margin-bottom: 8px;
     text-align: left;
 }
+
+.team-svg {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.team-svg-li {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
