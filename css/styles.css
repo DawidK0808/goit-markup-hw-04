@@ -116,6 +116,12 @@ p {
     overflow: hidden;
 }
 
+..traits-section {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
 .third-heading {
     color: var(--navy-blue);
     font-size: 20px;
@@ -236,6 +242,19 @@ img {
 
 .traits-li {
     flex-basis: calc((100% - 72px) / 4);
+    display: block;
+    gap: 8px;
+}
+
+.traits-icon-box {
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
 }
 
 .work-section {
