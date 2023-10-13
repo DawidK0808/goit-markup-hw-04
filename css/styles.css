@@ -50,6 +50,10 @@ p {
     text-decoration: none;
 }
 
+.link-team {
+    text-decoration: none;
+}
+
 .link:hover,
 .link:focus {
     color: var(--ocean);
