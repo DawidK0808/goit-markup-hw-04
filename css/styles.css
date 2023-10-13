@@ -89,6 +89,11 @@ ul {
        0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
 .logo {
     color: var(--iris);
     font-family: "Raleway", sans-serif;
