@@ -1,31 +1,7 @@
-:root {
-    --iris: #4d5ae5;
-    --ocean: #404bbf;
-    --navy-blue: #2e2f42;
-    --green: #31d0aa;
-    --slate: #434455;
-    --light-slate: #8e8f99;
-    --cornflower: #e7e9fc;
-    --cloud: #f4f4fd;
-    --navy-blue-modal: #2e2f4266;
-    --grey: #2e2f42b2;
-    --white: #ffffff;
-    --dairy: #fcfcfc;
-    --second-heading-size: 36px;
-    --second-heading-weight: 700;
-    --third-heading-size: 20px;
-    --third-heading-weight: 500;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    background-color: var(--white);
-    color: var(--slate);
     font-family: "Roboto", sans-serif;
+    background-color: var(--white-color);
+    color: var(--slate-color);
     margin: 0 auto;
 }
 
@@ -34,19 +10,36 @@ h2,
 h3,
 p,
 ul {
-    marigin: 0;
-}    
+    margin: 0;
+}
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.button {
+button {
     cursor: pointer;
     border: none;
     border-radius: 4px;
+}
+
+:root {
+    --navy-blue-color: #2e2f42;
+    --iris-color: #4d5ae5;
+    --ocean-color: #404bbf;
+    --slate-color: #434455;
+    --white-color: #ffffff;
+    --cloud-color: #f4f4fd;
+    --cornflower-color: #e7e9fc;
+    --grey-color: #2e2f42b2;
+    --light-slate-color: #8e8f99;
+    --green-color: #31d0aa;
+    --second-heading-size: 36px;
+    --second-heading-weight: 700;
+    --third-heading-size: 20px;
+    --third-heading-weight: 500;
 }
 
 .visually-hidden {
@@ -83,10 +76,10 @@ ul {
 }
 
 .page-header {
-    border-bottom: 1px solid var(--cornflower);
+    border-bottom: 1px solid var(--cornflower-color, #e7e9fc);
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08),
-       0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-       0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .header-layout {
@@ -95,7 +88,7 @@ ul {
 }
 
 .logo {
-    color: var(--iris);
+    color: var(--iris-color);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -106,11 +99,11 @@ ul {
 }
 
 .footer-logo {
-    color: var(--cloud);
+    color: var(--cloud-color);
 }
 
 .part-logo {
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
 }
 
 .navigation {
@@ -127,20 +120,20 @@ ul {
 }
 
 .page-link {
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
     display: inline-block;
     padding: 24px 0;
 }
 
 .page-link:hover,
 .page-link:focus {
-    color: var(--ocean);
+    color: var(--ocean-color);
 }
 
 .page-link-studio::after {
     content: "";
     display: block;
-    background-color: var(--ocean);
+    background-color: var(--ocean-color);
     height: 4px;
     border-radius: 2px;
 }
@@ -148,7 +141,7 @@ ul {
 .page-link-portfolio::after {
     content: "";
     display: block;
-    background-color: var(--ocean);
+    background-color: var(--ocean-color);
     height: 4px;
     border-radius: 2px;
 }
@@ -160,7 +153,7 @@ ul {
 }
 
 .address-link {
-    color: var(--slate);
+    color: var(--slate-color);
     line-height: 1.5;
     letter-spacing: 0.32px;
     display: inline-block;
@@ -169,11 +162,11 @@ ul {
 
 .address-link:hover,
 .address-link:focus {
-    color: var(--ocean);
+    color: var(--ocean-color);
 }
 
 .footer-section {
-    background-color: var(--navy-blue);
+    background-color: var(--navy-blue-color);
     padding: 100px 0;
 }
 
@@ -192,14 +185,14 @@ ul {
 }
 
 .footer-note {
-    color: var(--cloud);
+    color: var(--cloud-color);
     line-height: 1.5;
     letter-spacing: 0.32px;
     max-width: 264px;
 }
 
 .social-media-heading {
-    color: var(--white);
+    color: var(--white-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -221,23 +214,23 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--iris);
+    background-color: var(--iris-color);
     border-radius: 50%;
     width: 100%;
     height: 100%;
 }
 
 .footer-svg {
-    fill: var(--cloud);
+    fill: var(--cloud-color);
 }
 
 .footer-socialmedia-icon:hover,
 .footer-socialmedia-icon:focus {
-    background-color: var(--green);
+    background-color: var(--green-color);
 }
 
 .order-section {
-    background-color: var(--navy-blue);
+    background-color: var(--navy-blue-color);
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
@@ -251,7 +244,7 @@ ul {
 }
 
 .main-header {
-    color: var(--white);
+    color: var(--white-color);
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -264,8 +257,8 @@ ul {
 
 .order-button {
     font-family: "Roboto", sans-serif;
-    background-color: var(--iris);
-    color: var(--white);
+    background-color: var(--iris-color);
+    color: var(--white-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -279,7 +272,7 @@ ul {
 
 .order-button:hover,
 .order-button:focus {
-    background-color: var(--ocean);
+    background-color: var(--ocean-color);
 }
 
 .services-section {
@@ -295,7 +288,7 @@ ul {
 }
 
 .services-icon-box {
-    background-color: var(--cloud);
+    background-color: var(--cloud-color);
     border-radius: 4px;
     width: 264px;
     height: 112px;
@@ -308,7 +301,7 @@ ul {
 .small-header {
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
     font-size: var(--third-heading-size);
     font-weight: var(--third-heading-weight);
     margin-bottom: 8px;
@@ -318,11 +311,11 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
+    color: var(--slate-color);
 }
 
 .section-header {
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
     font-size: var(--second-heading-size);
     font-weight: var(--second-heading-weight);
     line-height: 1.11;
@@ -346,7 +339,7 @@ ul {
 }
 
 .team-section {
-    background-color: var(--cloud);
+    background-color: var(--cloud-color);
 }
 
 .team-list {
@@ -356,7 +349,7 @@ ul {
 }
 
 .team-tile {
-    background-color: var(--white);
+    background-color: var(--white-color);
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
@@ -398,7 +391,7 @@ ul {
 .social-media-icon-link {
     width: 100%;
     height: 100%;
-    background-color: var(--iris);
+    background-color: var(--iris-color);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -407,11 +400,11 @@ ul {
 
 .social-media-icon-link:hover,
 .social-media-icon-link:focus {
-    background-color: var(--ocean);
+    background-color: var(--ocean-color);
 }
 
 .icon-style {
-    fill: var(--cloud);
+    fill: var(--cloud-color);
 }
 
 .clients-list {
@@ -431,9 +424,9 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid var(--light-slate);
+    border: 1px solid var(--light-slate-color);
     border-radius: 4px;
-    color: var(--light-slate);
+    color: var(--light-slate-color);
 }
 
 .client-icon-svg {
@@ -442,8 +435,8 @@ ul {
 
 .client-icon:hover,
 .client-icon:focus {
-    border-color: var(--ocean);
-    color: var(--ocean);
+    border-color: var(--ocean-color);
+    color: var(--ocean-color);
 }
 
 .portfolio-main-section {
@@ -459,9 +452,9 @@ ul {
 
 .filter-button {
     font-family: "Roboto", sans-serif;
-    background-color: var(--cloud);
-    border: 1px solid var(--cornflower);
-    color: var(--iris);
+    background-color: var(--cloud-color);
+    border: 1px solid var(--cornflower-color);
+    color: var(--iris-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -471,7 +464,7 @@ ul {
 
 .filter-button:hover,
 .filter-button:focus {
-    background-color: var(--ocean);
+    background-color: var(--ocean-color);
     border: 1px solid transparent;
     color: var(--white-color);
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
@@ -495,6 +488,7 @@ ul {
 
 .portfolio-link:hover,
 .portfolio-link:focus {
+    border: 1px solid var(--CLOUD, #f4f4fd);
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
         0px 1px 1px 0px rgba(46, 47, 66, 0.16),
         0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -502,12 +496,12 @@ ul {
 
 .portfolio-description {
     padding: 32px 16px;
-    border: 1px solid var(--cornflower);
+    border: 1px solid var(--cornflower-color);
     border-top: none;
 }
 
 .portfolio-header {
-    color: var(--navy-blue);
+    color: var(--navy-blue-color);
     font-weight: var(--third-heading-weight);
     font-size: var(--third-heading-size);
     line-height: 1.2;
@@ -516,7 +510,7 @@ ul {
 }
 
 .portfolio-paragraph {
-    color: var(--slate);
+    color: var(--slate-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
