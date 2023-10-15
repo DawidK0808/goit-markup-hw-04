@@ -233,8 +233,9 @@ button {
     background-color: var(--navy-blue-color);
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-        url("/images/people-office.jpg");
+            rgba(46, 47, 66, 0.7)
+            ),
+       url("/goit-markup-hw-04/images/people-office.jpg");
     max-width: 1440px;
     background-position: center;
     background-size: cover;
